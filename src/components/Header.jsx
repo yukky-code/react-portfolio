@@ -5,19 +5,22 @@ const Header = () => {
   return (
     <header>
         <div className="logo">
-            <h3>ポートフォリオ</h3>
+            <h3>Portfolio</h3>
         </div>
 
         <nav>
             <ul>
                 <li>
-                    <Link to="/">ホーム</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/blog">ブログ</Link>
+                    <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                    <a href="">SNS</a>
+                    <Link to="/works">Works</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>

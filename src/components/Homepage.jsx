@@ -9,13 +9,12 @@ import { Link } from 'react-router-dom';
 function Homepage() {
   return (
     <div className="container text-center">
-      <h1>yukky Code</h1>
+      <h1>Yukioka Tomohiro</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        Yukioka Tomohiroです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        Yukioka Tomohiroです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        Yukioka Tomohiroです。<br/>普段は個人でWebサイトの制作やアプリの開発を行っています。主にHTML/CSS/Javascript/Reactをメインに使用しています。<br/>特にJavascriptを使用してアニメーションをつけることが好きです。
       </p>
 
       <section class="page-section" id="services">
@@ -27,20 +26,18 @@ function Homepage() {
             </h3>
           </div>
           <div class="row text-center">
-            <Link to="https://iplusplus.base.shop/">
             <div class="col-md-4">
+            <Link to="https://iplusplus.base.shop/">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
               </span>
               <h4 class="my-3">ECサイト</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                BASE・アパレル通販サイト
               </p>
-            </div>
             </Link>
+            </div>
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -48,9 +45,7 @@ function Homepage() {
               </span>
               <h4 class="my-3">レスポンシブサイト</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                ランディングページの作成・運用
               </p>
             </div>
             <div class="col-md-4">
@@ -60,9 +55,7 @@ function Homepage() {
               </span>
               <h4 class="my-3">ホームページ</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                企業のホームページの作成・運用
               </p>
             </div>
           </div>
@@ -76,7 +69,7 @@ function Homepage() {
             <div class="col-md-4 services">
               <img src={reactImage} />
               <h4>React/Next.js</h4>
-              <p>Reactがつかえます</p>
+              <p>React/Next.jsがつかえます</p>
             </div>
             <div class="col-md-4 services">
               <img src={jsImage} />
