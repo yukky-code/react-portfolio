@@ -3,18 +3,19 @@ import { Button } from 'react-bootstrap';
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/bird1.png";
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>yukky Code</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        Yukioka Tomohiroです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        Yukioka Tomohiroです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
       </p>
 
       <section class="page-section" id="services">
@@ -26,6 +27,7 @@ function Homepage() {
             </h3>
           </div>
           <div class="row text-center">
+            <Link to="https://iplusplus.base.shop/">
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -38,6 +40,7 @@ function Homepage() {
                 impedit.
               </p>
             </div>
+            </Link>
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -55,7 +58,7 @@ function Homepage() {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ウェブセキュリティ</h4>
+              <h4 class="my-3">ホームページ</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
@@ -72,18 +75,18 @@ function Homepage() {
           <div class="row text-center">
             <div class="col-md-4 services">
               <img src={reactImage} />
-              <h4>React</h4>
+              <h4>React/Next.js</h4>
               <p>Reactがつかえます</p>
             </div>
             <div class="col-md-4 services">
               <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
+              <h4>HTML/CSS/JS</h4>
+              <p>HTML/CSS/JSがつかえます</p>
             </div>
             <div class="col-md-4 services">
               <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <h4>Wordpress</h4>
+              <p>Wordpressがつかえます</p>
             </div>
           </div>
           <button type="button" class="btn btn-primary">
