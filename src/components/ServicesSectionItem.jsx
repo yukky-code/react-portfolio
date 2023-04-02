@@ -5,6 +5,7 @@ import PText from './PText';
 
 const ItemStyles = styled.div`
   text-align: center;
+  margin-top: 50px; 
   .servicesItem__icon {
     svg {
       width: 5rem;
@@ -12,11 +13,15 @@ const ItemStyles = styled.div`
     }
   }
   .servicesItem__title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: 'Montserrat SemiBold';
+    margin: 50px 0;
   }
   .para {
     margin-top: 2rem;
+  }
+  .para p {
+    font-size: 1rem;
   }
 `;
 

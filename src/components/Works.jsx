@@ -61,7 +61,7 @@ function Works() {
     <div className="container text-center">
         <SectionTitle
         heading='WORKS'
-        subheading='my works is here' />
+        subheading='私の作品・実績' />
 
     <section id="skill">
       <Swiper             
@@ -94,23 +94,6 @@ function Works() {
             </SwiperSlide>
           );
         })}
-
-
-
-        {/* <WorksSectionItem 
-        title="アプリケーション"
-        desc='アプリ開発'
-        />
-        <WorksSectionItem 
-        image={jsImage}
-        title="WEBサイト制作"
-        desc='サイト制作'
-        />
-        <WorksSectionItem 
-        image={firebaseImage}
-        title="Wordpress"
-        desc='CMS管理運用・カスタマイズ'
-        /> */}
       
       </Swiper>
     </section>

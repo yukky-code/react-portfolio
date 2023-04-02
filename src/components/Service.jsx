@@ -30,23 +30,23 @@ function Service() {
         <div className="container">
         <SectionTitle
         heading="Services"
-        subheading='what i will do for you' /> 
+        subheading='できること' /> 
 
         <div className="services__allItems">
         <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="web design"
-            desc="I do ui/ux design for the website that helps website to get a unique look."
+            title="WEBデザイン"
+            desc="UI/UXに特化したデザインでWEBサイトの制作などを行います。"
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            title="コーディング"
+            desc="企業のホームページやランディングページの構築を行います。HTML/CSS/Javascriptを用いてスピーディーに業務を行います。"
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile application. I create mobile app with eye catching ui. "
+            title="アプリケーション開発"
+            desc="React/Next.jsを用いたUIに特化したSPAの構築を行います。"
           />
         </div>
         </div>

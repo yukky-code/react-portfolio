@@ -9,7 +9,6 @@ position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1rem 0;
   background: black;
   ul {
     max-width: 1200px;
@@ -24,11 +23,18 @@ position: fixed;
     a {
       display: inline-block;
       font-family: 'RobotoMono Regular';
-      padding: 1rem 1rem;
+      padding: 2rem;
       font-size: 1.5rem;
       outline: none;
       text-decoration: none;
       color: white;
+      transition: color .5s, background .5s;
+    }
+    a:hover {
+        color: #5e9aaf;
+        background: #212121;
+        border-radius: 8px;
+        padding: 1rem 2rem;
     }
   }
   .mobile-menu-icon {
@@ -44,7 +50,7 @@ position: fixed;
       pointer-events: none;
     }
   }
-  .navItems .closeNavIcon {
+  .navItem .closeNavIcon {
     display: none;
   }
   @media only screen and (max-width: 768px) {

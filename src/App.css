@@ -1,45 +1,25 @@
 :root {
   --black-color: #010000;
   --white-color: #ffffff;
-  --lightgray-color: #e6e6e6;
+  --lightgray-color: #ededed;
 }
+
+
 
 .App {
   font-size: 18px;
-  height: 100vh;
+  height: auto;
   width: 100%;
   /* font-weight: 400; */
   /* font-style: normal; */
-
+  padding: 120px 0;
+  background-color: var(--lightgray-color);
 }
 
-
-
-/* nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 30px;
-}
-
-nav ul li a {
-  font-size: 19px;
-  text-decoration: none;
-  color: var(--white-color);
-  transition: all 0.2s;
-}
-
-nav ul li a:hover {
-  color: #48b4af;
-} */
 
 .container {
   height: auto;
-  padding: 120px;
+  padding: 0px;
 }
 
 .container h1 {
@@ -49,8 +29,8 @@ nav ul li a:hover {
 
 .profileImage {
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin:50px 0;
 }
@@ -70,7 +50,7 @@ img {
 
 #skill img {
   object-fit: cover;
-  margin: 100px 0 30px 0;
+  margin: 0px 0 30px 0;
   height: 300px;
 }
 

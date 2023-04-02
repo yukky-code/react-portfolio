@@ -23,18 +23,18 @@ function Homepage() {
 
       <SectionTitle
         heading='Yukioka Tomohiro'
-        subheading='my name is' />
+        subheading='coder' />
 
       <img src={profileImage} className="profileImage" />
       <p>
-        Yukioka Tomohiroです。<br/>
+        雪岡 智裕です。<br/>
         普段は個人でWebサイトの制作やアプリの開発を行っています。
         主にHTML/CSS/Javascript/Reactをメインに使用しています。<br/>
         特にJavascriptを使用してアニメーションをつけることが好きです。
       </p>
 
-      <Works />
       <Service />
+      <Works />
     </div>
 
     </HomepageStyle>
