@@ -4,52 +4,14 @@ import PText from './PText';
 import MapImg from '../Images/map.jpg';
 
 
-const MapStyles = styled.div`
-background: url(${MapImg}) no-repeat;
-background-position: center;
-background-size: cover;
-min-height: 400px;
-margin-top: 200px;
 
+
+const MapStyles = styled.div`
+margin-top: 100px;
 color: white;
 .container2 {
   position: relative;
   min-height: 400px;
-}
-.map__card {
-  position: absolute;
-  right: 10%;
-  bottom: 10%;
-  padding: 2rem;
-  background: #2B2B2B;
-  width: 100%;
-  max-width: 300px;
-  border-radius: 12px;
-}
-.map__card__heading {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.map__card__link {
-  display: inline-block;
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  text-decoration: none;
-  color: white;
-  transition: all 1s;
-  cursor: pointer;
-}
-.map__card__link:hover {
-  color: #48b4af;
-}
-@media only screen and (max-width: 768px) {
-  background-position: 80% center;
-}
-@media only screen and (max-width: 400px) {
-  .map__card {
-    max-width: none;
-    right: auto;
-  }
 }
 `;
 
@@ -57,19 +19,12 @@ function Map() {
   return (
     <MapStyles>
         <div className="container2">
-            <div className="map__card">
-                <h3 className="map__card__heading">
-                    Here is me
-                </h3>
-                <a href='https://www.google.co.jp/maps/@35.0923463,135.1597401,12.77z?hl=ja' 
-                target="_blank" 
-                rel='noreferrer'
-                className='map__card__link'
-                >
-                    Open in Googlemap</a>
+            <div>          
+                <iframe src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61260.92886208251!2d135.15974007404483!3d35.092346290297236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600012c784fa7ab3%3A0x6cbeaab9b736a71a!2z5Li55rOi5aSn5bGx6aeF!5e0!3m2!1sja!2sjp!4v1680397797511!5m2!1sja!2sjp"} height={600} width={"100%"}/>         
             </div>
         </div>
     </MapStyles>
+
   )
 }
 
