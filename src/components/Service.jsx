@@ -13,7 +13,7 @@ padding: 5rem 0;
   justify-content: space-between;
   margin-top: 5rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .services__allItems {
     flex-direction: column;
     max-width: 350px;

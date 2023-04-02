@@ -66,7 +66,7 @@ function Works() {
     <section id="skill">
       <Swiper             
       spaceBetween={30}
-      slidesPerView={2}
+      slidesPerView={1}
       navigation
       breakpoints={
         {

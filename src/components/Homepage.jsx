@@ -27,7 +27,10 @@ function Homepage() {
 
       <img src={profileImage} className="profileImage" />
       <p>
-        Yukioka Tomohiroです。<br/>普段は個人でWebサイトの制作やアプリの開発を行っています。主にHTML/CSS/Javascript/Reactをメインに使用しています。<br/>特にJavascriptを使用してアニメーションをつけることが好きです。
+        Yukioka Tomohiroです。<br/>
+        普段は個人でWebサイトの制作やアプリの開発を行っています。
+        主にHTML/CSS/Javascript/Reactをメインに使用しています。<br/>
+        特にJavascriptを使用してアニメーションをつけることが好きです。
       </p>
 
       <Works />
