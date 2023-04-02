@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 .container {
-  height: 100vh;
+  height: auto;
   padding: 120px;
 }
 
@@ -85,7 +85,7 @@ img {
 
 #skill img {
   object-fit: cover;
-  margin: 30px 0;
+  margin: 100px 0 30px 0;
   height: 300px;
 }
 

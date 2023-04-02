@@ -3,10 +3,11 @@ import { MdAddIcCall, MdLocationOn, MdMailOutline } from 'react-icons/md';
 import styled from 'styled-components'
 import ContactForm from './ContactForm'
 import ContactInfoItem from './ContactInfoItem'
+import SectionTitle from './SectionTitle';
 
 const ContactSectionStyle = styled.div`
 text-align: center;
-padding: 10rem 0 0 0;
+padding: 5rem 0 0 0;
 
 .container2 h1 {
   font-size {
@@ -61,8 +62,12 @@ padding: 10rem 0 0 0;
 function ContactSection() {
   return (
     <ContactSectionStyle>
-      <div className="container2">
-        <h1>CONTACT</h1>
+      <div className="container">
+
+        <SectionTitle 
+        heading='CONTACT'
+        subheading='address & mail' />
+
         <div className="contactSection__wrapper">
           <div className="left">
             <ContactInfoItem 
