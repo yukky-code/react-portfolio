@@ -87,6 +87,7 @@ function Works() {
           return(
             <SwiperSlide key={WorksSectionItem.id}>
               <WorksItem 
+              url={WorkSectionItem.url}
               image={WorkSectionItem.img}
               title={WorkSectionItem.title}
               desc={WorkSectionItem.desc}
