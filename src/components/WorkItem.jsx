@@ -13,6 +13,7 @@ a:hover{
     opacity: 0.6;
 }
 .WorksItem__title {
+    font-family: 'Montserrat SemiBold';
     font-size: 1.5rem;
     font-weight: 500;
     margin: 20px 0;
