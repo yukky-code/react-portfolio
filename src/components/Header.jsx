@@ -28,7 +28,7 @@ position: fixed;
       outline: none;
       text-decoration: none;
       color: white;
-      transition: color .5s, background .5s;
+      transition: color .5s, background .5s, padding .5s;
     }
     a:hover {
         color: #5e9aaf;

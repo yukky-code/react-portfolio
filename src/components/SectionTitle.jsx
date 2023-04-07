@@ -3,6 +3,18 @@ import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
   text-align: center;
+  animation: slide-animation 1.5s ease;
+  @keyframes slide-animation {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   p {
     font-family: 'RobotoMono Regular';
     font-size: 1.5rem;

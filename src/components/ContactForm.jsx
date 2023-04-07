@@ -8,7 +8,7 @@ const FormStyle = styled.form`
     margin-bottom: 2rem;
   }
   label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   input,
   textarea {

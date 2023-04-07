@@ -13,7 +13,7 @@ const projects = [
         id: uuidv4(),
         title: '株式会社WEES',
         desc:
-        '大阪のWEB制作会社。\n立ち上げの際にホームページのデザインからコーディング、修正まで行いました。',
+        '大阪のWEB制作会社。立ち上げの際にホームページのデザインからコーディング、修正まで行いました。',
         img: works1,
         url: "https://wees.jp/",
     },
@@ -38,7 +38,7 @@ const projects = [
       id: uuidv4(),
       title: 'i++',
       desc:
-        'アパレル販売・通販サイトの構築',
+        'i++ アパレル販売・通販サイトの構築 BASEにて独自テーマにて作成',
       img: works4,
       url: "https://iplusplus.base.shop/",
 

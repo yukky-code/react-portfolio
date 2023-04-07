@@ -139,7 +139,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="デザイン"
-                items={['Photoshop', 'Canva', 'Figma']}
+                items={['Photoshop', 'Canva', 'Figma', 'Blender']}
               />
             </div>
           </div>
