@@ -54,14 +54,14 @@ padding: 5rem 0 0;
 
 `;
 
-function Works() {
+function WorksSection() {
   return (
     <WorkStyle>
 
     <div className="container text-center">
         <SectionTitle
         heading='WORKS'
-        subheading='私の作品・実績' />
+        subheading='作品・実績' />
 
     <section id="skill">
       <Swiper             
@@ -104,4 +104,4 @@ function Works() {
   )
 }
 
-export default Works
+export default WorksSection

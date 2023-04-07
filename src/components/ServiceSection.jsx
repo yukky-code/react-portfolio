@@ -6,25 +6,24 @@ import ServicesSectionItem from './ServicesSectionItem'
 
 
 const ServiceItemStyles = styled.div`
+color: #BDB4B4;
 padding: 5rem 0;
 .services__allItems {
   display: flex;
   gap: 10rem;
   justify-content: space-between;
-  margin-top: 5rem;
 }
 @media only screen and (max-width: 1000px) {
   .services__allItems {
     flex-direction: column;
     max-width: 350px;
     margin: 0 auto;
-    margin-top: 5rem;
     gap: 5rem;
   }
 }
 `;
 
-function Service() {
+function ServiceSection() {
   return (
     <ServiceItemStyles>
         <div className="container">
@@ -54,4 +53,4 @@ function Service() {
   )
 }
 
-export default Service
+export default ServiceSection

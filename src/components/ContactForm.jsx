@@ -47,7 +47,7 @@ function ContactForm() {
     <div>
         <FormStyle>
             <div className="form-group">
-                <label htmlFor="name">Your name
+                <label htmlFor="name">名前
                 <input 
                 type="text" 
                 id='name' 
@@ -58,7 +58,7 @@ function ContactForm() {
                 </label>
             </div>
             <div className="form-group">
-                <label htmlFor="email">Your email
+                <label htmlFor="email">アドレス
                 <input 
                 type="text" 
                 id='email' 
@@ -69,7 +69,7 @@ function ContactForm() {
                 </label>
             </div>
             <div className="form-group">
-                <label htmlFor="message">Your message
+                <label htmlFor="message">要望
                 <textarea 
                 type="text" 
                 id='message' 
@@ -79,7 +79,7 @@ function ContactForm() {
                 />
                 </label>
             </div>
-            <button type='submit'>Send</button>
+            <button type='submit'>送信</button>
         </FormStyle>
     </div>
   )

@@ -1,14 +1,11 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
 import profileImage from "../Images/bird1.png";
 import { Link } from 'react-router-dom';
 import SectionTitle from './SectionTitle';
 import styled from 'styled-components';
-import Service from './Service';
-import Works from './Works';
+import Service from './ServiceSection';
+import WorksSection from './WorksSection';
+import AboutSection from './AboutSection';
 
 
 const HomepageStyle = styled.div`
@@ -27,14 +24,16 @@ function Homepage() {
 
       <img src={profileImage} className="profileImage" />
       <p>
-        雪岡 智裕です。<br/>
-        普段は個人でWebサイトの制作やアプリの開発を行っています。
+        初めまして、雪岡 智裕です。<br/>
+        私は普段、個人でWebサイトの制作を行っています。
         主にHTML/CSS/Javascript/Reactをメインに使用しています。<br/>
         特にJavascriptを使用してアニメーションをつけることが好きです。
+        最近ではReactを使用しての開発に興味を持って取り組んでいます。
       </p>
 
+      <AboutSection />
       <Service />
-      <Works />
+      <WorksSection />
     </div>
 
     </HomepageStyle>

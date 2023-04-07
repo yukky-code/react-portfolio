@@ -72,7 +72,7 @@ function ContactSection() {
           <div className="left">
             <ContactInfoItem 
             icon={<MdAddIcCall />}
-            text="090-0909-0909"
+            text="090-6201-0259"
             />
             <ContactInfoItem 
             icon={<MdMailOutline />}
@@ -80,7 +80,7 @@ function ContactSection() {
             />
             <ContactInfoItem
             icon={<MdLocationOn />}
-            text="Japan in Osaka"
+            text="Japan in Hyogo"
             />
           </div>
           <div className="right">

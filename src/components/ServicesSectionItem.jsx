@@ -8,14 +8,13 @@ const ItemStyles = styled.div`
   margin-top: 50px; 
   .servicesItem__icon {
     svg {
-      width: 5rem;
-      font-size: 5rem;
+      width: 3rem;
+      font-size: 2rem;
     }
   }
   .servicesItem__title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat SemiBold';
-    margin: 50px 0;
   }
   .para {
     margin-top: 2rem;

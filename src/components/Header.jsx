@@ -9,7 +9,7 @@ position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: black;
+  background: #262626;
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -24,7 +24,7 @@ position: fixed;
       display: inline-block;
       font-family: 'RobotoMono Regular';
       padding: 2rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       outline: none;
       text-decoration: none;
       color: white;
@@ -125,12 +125,12 @@ function Header() {
                     <Link to="/blog">Blog</Link>
                 </li> */}
                 <li>
-                    <Link to="/service"
+                    <Link to="/about"
                     onClick={() => SetShowNav(!showNav)}
                     role="button"
                     onKeyDown={() => SetShowNav(!showNav)}
                     tabIndex={0}                      
-                    >Service</Link>
+                    >About</Link>
                 </li>
                 <li>
                     <Link to="/works"

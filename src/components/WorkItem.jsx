@@ -5,6 +5,10 @@ import reactImage from "../Images/react.png";
 
 const WorkItemstyle = styled.div`
 margin: 100px 0;
+img{
+    width: 300px;
+    height: 300px;
+}
 a {
     ccursor: pointer;
     transition: all .5s;

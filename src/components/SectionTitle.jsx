@@ -9,10 +9,11 @@ const SectionTitleStyle = styled.div`
   }
   h2 {
     font-family: 'Montserrat Bold';
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-top: 0.5rem;
     text-transform: uppercase;
+    color: #BDB4B4;
   }
   @media only screen and (max-width: 768px) {
     text-align: center;

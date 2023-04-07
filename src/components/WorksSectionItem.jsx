@@ -49,6 +49,7 @@ const projects = [
         desc:
         'すべての作品はこちらから',
         img: reactImage,
+        url: "/works/#worktop",
     },
 ];
 
