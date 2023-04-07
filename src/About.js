@@ -64,16 +64,16 @@ const AboutPageStyles = styled.div`
     padding: 5rem 0;
     .top-section {
       flex-direction: column;
-      gap: 5rem;
+      gap: 0rem;
     }
     .about__subheading {
-      font-size: 1.8rem;
+      font-size: 1.2rem;
     }
     .about__heading {
-      font-size: 2.8rem;
+      font-size: 2rem;
     }
     .about__info__heading {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 `;

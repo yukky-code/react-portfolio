@@ -34,7 +34,7 @@ const AboutItemStyles = styled.div`
       gap: 1rem;
     }
     .title {
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
   }
 `;

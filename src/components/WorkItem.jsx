@@ -5,6 +5,7 @@ import reactImage from "../Images/react.png";
 
 const WorkItemstyle = styled.div`
 margin: 100px 0;
+
 img{
     width: 300px;
     height: 300px;
@@ -19,8 +20,18 @@ a:hover{
 .WorksItem__title {
     font-family: 'Montserrat SemiBold';
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 20px 0;
+}
+.WorksItem__desc {
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .WorksItem__desc {
+        font-size: 1rem;
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
 `;
 

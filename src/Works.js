@@ -16,9 +16,15 @@ padding: 5rem 0;
 }
 .works__serchbar {
     margin-left: 3rem;
+    margin: 3rem 0 0 2rem ;
 }
 form {
     display: contents;
+}
+@media only screen and (max-width: 768px) {
+    .works__allItems{
+        gap: 0rem;
+    }
 }
 `;
 

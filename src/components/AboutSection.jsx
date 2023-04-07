@@ -7,13 +7,13 @@ import PText from './PText';
 
 
 const AboutStyle = styled.div`
-padding: 10rem 0;
+padding: 10rem 0 5rem;
   .container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    width: 90%;
+
   }
   .aboutSection__left,
   .aboutSection__right {
@@ -59,6 +59,7 @@ padding: 10rem 0;
     .para {
       margin: 0 auto;
       margin-top: 2rem;
+      text-align: left;
     }
     .aboutSection__buttons {
       flex-direction: column;

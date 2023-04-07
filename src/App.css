@@ -20,7 +20,7 @@ img {
   width: 100%;
   /* font-weight: 400; */
   /* font-style: normal; */
-  padding: 120px 0 0 0;
+  padding: 100px 0 0 0;
   background-color: #262626;
   color: #ffffff;
 }
@@ -36,8 +36,8 @@ img {
 
 .profileImage {
   object-fit: cover;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin:50px 0;
 }
