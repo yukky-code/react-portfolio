@@ -4,6 +4,12 @@ import PText from './components/PText';
 import aboutImage from "./Images/about1.jpg";
 import AboutInfoItem from './components/AboutInfoItem';
 import SectionTitle from './components/SectionTitle';
+import AboutskillItem from './components/AboutskillItem';
+import Aboutskillinfo from './components/Aboutskillinfo';
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
+import { SiBlender } from "react-icons/si";
 
 const AboutPageStyles = styled.div`
   padding: 5rem 0 10rem 0;
@@ -59,6 +65,12 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 2.5rem;
     text-transform: uppercase;
+    margin-bottom: 3rem; 
+  }
+  .design_skill {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   @media only screen and (max-width: 768px) {
     padding: 5rem 0;
@@ -84,7 +96,7 @@ export default function About() {
       <AboutPageStyles>
         <div className="container">
       <SectionTitle
-            heading='about'
+            heading='about me'
             subheading='私について' />
           <div className="top-section">
             <div className="left">
@@ -131,11 +143,36 @@ export default function About() {
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">スキル・使用言語</h1>
+              <h1 className="about__info__heading">スキル</h1>
+            
+              {/* <AboutskillItem />
 
+              <div className='design_skill'>
+              <Aboutskillinfo 
+              title='photoshop'
+              colors='#011D34'
+              icon={<SiAdobephotoshop />}
+              />
+              <Aboutskillinfo 
+              title='canva'
+              colors='#484DEA'
+              icon={<SiCanva />}
+              />
+              <Aboutskillinfo 
+              title='figma'
+              colors='#0DC97F'
+              icon={<SiFigma />}
+              />
+              <Aboutskillinfo 
+              title='blender'
+              colors='#E27204'
+              icon={<SiBlender />}
+              />
+              </div> */}
+              
               <AboutInfoItem
                 title="フロントエンド"
-                items={['HTML', 'CSS', 'JavaScript', 'React']}
+                items={['HTML5', 'CSS3', 'Javascript', 'React']}
               />
               <AboutInfoItem
                 title="デザイン"

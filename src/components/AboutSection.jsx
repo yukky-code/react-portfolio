@@ -79,13 +79,17 @@ function AboutSection() {
         <div className="aboutSection__left">
           <SectionTitle
             subheading="私について"
-            heading="About Me"
+            heading="About"
           />
           <PText>
-            1998年3月31日生<br/>
-            独学でプログラミングの勉強を行いながら、WEBサイトの制作などに取り組んでいます。<br/>
-            私は、特にJavascriptやCSS使用してアニメーションをつけることが好きでよく様々なサイトを見ながら
-            調べては実装ということを繰り返しています。
+            1998年3月31日生まれの25歳<br/>趣味は筋トレとファッションや美容です。<br/>
+            前職ではWEB商材の提案営業に従事しておりました。<br/>
+            現在では、独学でプログラミングの勉強を行いながら、WEBサイトの制作などに取り組んでいます。<br/>
+            <br/>
+            2022年10月からHTML/CSSの習得に向けて参考書とUdemyにて学習を開始。
+            その後、サイト制作を行ってく中でJavascriptの学習も並行して進ました。<br/>
+            2023年2月から、Reactを使用したサイト構築やアプリの制作に興味を持ち学習を開始。
+            今回、学習のアウトプットとしてReactを用いたポートフォリオページの作成に着手しました。
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/works" />
